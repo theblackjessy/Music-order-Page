@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family:"Red Hat Display";
+    background-color: hsl(225, 100%, 94%);
+    min-height: 100vh;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: hsl(225, 100%, 98%);
+    height: 730px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.image img{
+    width: 500px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.main{
+    
+    padding: 20px 50px;
+    width:500px;  
+    border-radius: 20px;
+}
+.summary h3{
+    font-family:"Red Hat Display";
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    padding: 20px;
+
+}
+
+.summary p{
+    font-family:"Red Hat Display";
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    color: hsl(224, 23%, 55%);
+    padding-bottom: 20px;
+
+}
+
+.music{
+    display:flex;
+    width: 400px;
+    height:100px;
+    background-color: hsl(230, 67%, 96%);
+    border-radius: 15px;
+    padding-top: 20px;
+    
+}
+.music-image img{
+    padding: 0px 20px;
+    
+}
+.music-plan{
+    display: flex;
+    
+}
+
+.plan-change{
+    text-decoration: underline;
+    color:hsl(245, 75%, 52%);
+    text-align: center;
+    font-weight: 700;
+    padding-left: 110px;
+    padding-top: 17px;
+}
+
+.annual h5{
+    font-family:"Red Hat Display";
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+
+}
+
+.annual p{
+    font-family:"Red Hat Display";
+    font-size: 17px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    padding-top: 5px;
+}
+
+.proceed{
+    padding-top:30px;
+}
+button.pay{
+    background-color:hsl(245, 75%, 52%);
+    border-radius: 10px;
+    color: white;
+    padding: 15px 0;
+    border:none;
+    font-size: 16px;
+    font-weight:600;
+    cursor: pointer;
+    width:400px;
+    height:60px;
+    box-shadow: 0px 5px 20px hsl(224, 23%, 55%);}
+
+footer p{
+    color: hsl(245, 75%, 52%);
+    font-weight: 800;
+    padding-top: 30px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 375px){
+ 
+}
